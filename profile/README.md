@@ -75,3 +75,9 @@ extract-bsp  <-- kernel등 BSP 이미지 복사
 make -j24
 ```
 
+- Tip
+  Github SSH 를 통해 사용하는 경우 ssh 패스워드를 계속 입력해야하는 문제가있는데 다음과 같이 하면됨.
+```
+    $ eval `ssh-agent -s`
+    $ ssh-add ~/.ssh/id_rsa
+```
